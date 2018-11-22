@@ -1,14 +1,15 @@
 ---
 layout: post
 title: The Lotus and the Wheel
-subtitle: The best deck in the history of Magic
+subtitle: Analysis of the best deck in the history of Magic
+post_description: What is the best deck in the history of Magic? How often does it win? A major part of the game balance is the deck construction rule that sets the size of the deck at the minimum of 60 cards and limits any one card to a maximum of four copies. But what if those restrictions were lifted?
 bigimg: /img/lotus_and_wheel/lotus_and_wheel.jpg
 tags: [Black Lotus, Wheel of Fortune, Limited Edition Alpha, 40 Card Alpha, Python, Monte Carlo]
 ---
 
 ## History
 
-What is the best deck in the history of Magic? Over the 25-year life of Magic: the Gathering, card and set design have improved and bans and restrictions have kept dominating cards at bay. For the most part, the game has achieved a healthy balance between the various decks and archetypes across most of its constructed formats. A major part of the game balance is the deck construction rule that sets the size of the deck at the minimum of 60 cards and limits any one card to a maximum of four copies. But, what if that those restrictions were lifted?
+What is the best deck in the history of Magic? How often does it win? Over the 25-year life of Magic: the Gathering, card and set design have improved and bans and restrictions have kept dominating cards at bay. For the most part, the game has achieved a healthy balance between the various decks and archetypes across most of its constructed formats. A major part of the game balance is the deck construction rule that sets the size of the deck at the minimum of 60 cards and limits any one card to a maximum of four copies. But what if those restrictions were lifted?
 
 In the first months after its [release in August of 1993](https://mtg.gamepedia.com/Alpha), that's exactly how Magic was played. In this era of Wild Magic, a deck only had to have a minimum of [40 cards and the number of copies of a single card was not at all limited](http://oldschool-mtg.blogspot.com/2018/03/the-oldest-school-wizards-tournament.html). Because of no limitations, a number of severely degenerate decks quickly arose. Among those were the [Plague Rats](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=77) deck, the [Lightning Bolt](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=209) deck, and the [Timetwister](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=132)-[Fireball](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=197) deck. Each of these decks relied on multiple (dozens) of copies of a certain card to overwhelm the opponent with synergy and unmatched consistency (see, for example, [The History of Vintage](http://www.eternalcentral.com/schools-of-magic-the-history-of-vintage-chapters-1-2/) by Steve Menendian). However, reportedly the most deadly was the deck consisting of a combination of two cards: the [Wheel of Fortune](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=231) and the [Black Lotus](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3).
 
