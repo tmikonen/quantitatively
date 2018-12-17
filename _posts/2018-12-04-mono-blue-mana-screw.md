@@ -4,7 +4,7 @@ title: Mono Blue & Mana Screw
 subtitle: Going Mono Blue in the Music City.
 post_description: Playing old school with the Nashville crew. And how does playing four Strip Mines instead of one affect the chance of getting stuck with spells you are unable to cast?
 bigimg: /img/mono_blue_mana_screw/boots.jpg
-tags: [93/94, Mono Blue, EC rules, Strip Mine, Python]
+tags: [93/94, Mono Blue, Tournament, EC rules, Strip Mine, Python]
 ---
 
 ## Towards Music City
