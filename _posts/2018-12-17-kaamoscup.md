@@ -2,7 +2,7 @@
 layout: post
 title: Kaamos Cup 2018
 subtitle: Old School Magic Tournament at Helsinki
-post_description: The Helsinki Old School players organized a small tournament to gather one more time before the end of the year and to celebrate the coming of the dark winter. Who won, how many lands were destroyed,
+post_description: The Helsinki Old School players organized a small tournament to gather one more time before the end of the year and to celebrate the coming of the dark winter. Who won, how many lands were destroyed, and where did that Orb go?
 bigimg: /img/kaamoscup2018/badmoon.jpg
 tags: [93/94, 40 Card Alpha, Tournament]
 ---
