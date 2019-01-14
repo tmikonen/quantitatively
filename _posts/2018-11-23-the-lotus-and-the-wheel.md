@@ -36,26 +36,29 @@ With that thought experiment in mind as a sanity check, I started working on a s
 
 All of the above is then again repeated for different numbers of Lotuses and Wheels in the deck to find the optimal numbers. The IPython notebook that does all of the above can be found [here](../attachments/Lotus_And_Wheel.ipynb).
 
-![](../img/lotus_and_wheel/deck_size_43_turn3_win_prob_number_of_BL.jpg)
+![](../img/lotus_and_wheel/deck_size_43_turn3_win_prob_number_of_BL_rev.jpg)
 *Probability to win on turns 1 - 3 with a deck of 43 cards.*
 
-After a bit of waiting and number crunching, the results started to come in. It turns out that the 90's folklore was correct - with the optimal ratio of cards, this was one tremendously consistent deck. With 43 cards in total, the probability to win on *turn 1 was more than 97 %*!
+After a bit of waiting and number crunching, the results started to come in. It turns out that the 90's folklore was correct - with the optimal ratio of cards, this was one tremendously consistent deck. With 43 cards in total, the probability to win on *turn 1 was more than* ~~97 %~~ *98 %*!
 
 On subsequent turns, the winning probability does not go up. The reason is simply that unless the win happens on the first turn, the deck just runs out of cards. So increasing the number of cards should push the win percentage even higher. Trying that hypothesis out with a deck of 50 cards in total indeed shows that the win percentage increases on turns 2 and 3, up to and beyond 99 %!
 
-![](../img/lotus_and_wheel/deck_size_50_turn3_win_prob_number_of_BL.jpg)
+![](../img/lotus_and_wheel/deck_size_50_turn3_win_prob_number_of_BL_rev.jpg)
 *Probability to win on turns 1 - 3 with a deck of 50 cards.*
 
-![](../img/lotus_and_wheel/turn3_probability_map.jpg)
+![](../img/lotus_and_wheel/turn3_probability_map_rev.jpg)
 *Probability to win on turn 3 with decks of various sizes illustrated with iso-probability contours.*
 
-Now, of course the results can be generalized by looking at the *fraction* of Black Lotuses in the decks of various sizes instead of their raw number. For the turn 1 win probability, all the curves collapse onto a nice master curve (which gives a warm and fuzzy feeling for the statistical physicist). This shows that the turn 1 win percentage is not dependent on the deck size, as long as the number of Black Lotuses is adjusted accordingly.
+Now, of course the results can be generalized by looking at the *fraction* of Black Lotuses in the decks of various sizes instead of their raw number. ~~For the turn 1 win probability, all the curves collapse onto a nice master curve (which gives a warm and fuzzy feeling for the statistical physicist). This shows that the turn 1 win percentage is not dependent on the deck size, as long as the number of Black Lotuses is adjusted accordingly.~~ Actually, there is a small dependence on the deck size: the smaller deck has a higher win probability. I explain this in a future post.
 
-![](../img/lotus_and_wheel/probability_collapse.jpg)
+![](../img/lotus_and_wheel/probability_collapse_rev.jpg)
 *Probability to win on turn 1 with decks of various sizes, shown as a function of the fraction of Black Lotuses in the deck.*
 
-Finally, as a potential caveat, the simulation naturally assumes a non-responsive opponent. In a real match, of course, the opponent could have an opportunity to disrupt the game plan, particularly if they take the turn first. However, considering the possible answers to a combo win on turn 1 with the [card pool of the fall of '93](https://scryfall.com/sets/lea), this point is not a major concern. Basically, the only way to combat a deck that won on turn 1 with a probability of more than 97 %, was to play a combo deck of the same caliber.
+Finally, as a potential caveat, the simulation naturally assumes a non-responsive opponent. In a real match, of course, the opponent could have an opportunity to disrupt the game plan, particularly if they take the turn first. However, considering the possible answers to a combo win on turn 1 with the [card pool of the fall of '93](https://scryfall.com/sets/lea), this point is not a major concern. Basically, the only way to combat a deck that won on turn 1 with a probability of more than ~~97 %~~ 98 %, was to play a combo deck of the same caliber.
 
 ## Conclusion
 
-The Black Lotus and Wheel of Fortune deck of the era of Wild Magic can win on turn one with a probability in excess of 97 %. This can be achieved with an optimal deck containing roughly 43 % of Black Lotuses and 57 % of Wheel of Fortunes.
+The Black Lotus and Wheel of Fortune deck of the era of Wild Magic can win on turn one with a probability in excess of ~~97 %~~ 98 %. This can be achieved with an optimal deck containing roughly 43 % of Black Lotuses and 57 % of Wheel of Fortunes.
+
+
+*Update 14 January 2019: While working on a follow-up article to this post, I discovered an error in the simulation code. While the effect on the numbers is quite small, I have updated the figures with correct ones and revised the numbers. I've left the old values visible in the post for the sake of honesty and future discussion. I will write a post on the topic with more details about the analysis in the near future. Also note that later posts were unaffected by the error.*
