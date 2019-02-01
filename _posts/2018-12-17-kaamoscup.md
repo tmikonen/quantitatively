@@ -147,7 +147,7 @@ Awesome times were had, new friends were made, and many orbs were flipped. Many 
 See you all next year for Kaamos Cup 2019!
 
 
-## Footnotes
+### Footnotes
 
 [^1]: Rather than losing the game, Hannu finished both of the players with a Psionic Blast, resulting in a draw.
 [^2]: Mika had the most fun / original deck. And the biggest Orb.

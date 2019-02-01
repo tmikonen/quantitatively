@@ -67,4 +67,6 @@ You can go back to [this IPython notebook](../attachments/Lotus_And_Wheel.ipynb)
 
 [1]: https://en.wikipedia.org/wiki/Recursion_(computer_science)
 
+### Footnotes 
+
 [^1]: At least in the opening hand. Any excess Black Lotuses are played and kept on the battlefield to be available on subsequently drawn hands.

@@ -108,6 +108,8 @@ It is also interesting to note that while the general idea of the decks was cert
 
 In an upcoming article, I will take a look at the Braingeyser variant of the Timetwister decks. This was already foreshadowed by the title image of this post but, as it turned out, this one got already quite lengthy even without the Braingeyser.
 
+### Footnotes
+
 [^1]: Yes, while C++ is the crown prince in high-performance computing, C is the king and Fortran the old emperor. But I've grown to dislike C in contrast to C++ in terms of usability, and I see enough Fortran in my day job not to touch it for fun.
 
 [^2]: Daniel Lemire has an interesting [blog post](https://lemire.me/blog/2016/10/10/a-case-study-in-the-performance-cost-of-abstraction-cs-stdshuffle/) on the performance of the C++'s std::shuffle.
