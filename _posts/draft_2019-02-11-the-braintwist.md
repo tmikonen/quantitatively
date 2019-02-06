@@ -2,7 +2,7 @@
 layout: post
 title: The BrainTwist
 subtitle: Does Braingeyser beat the Fireball?
-post_description: In previous post we simulated the infamous Black Lotus & Timetwister combo deck that used Fireball as a game finisher. In this post, we'll see if replacing the Fireball with Braingeyser can make the deck even better.
+post_description: In the previous post we simulated the infamous Black Lotus & Timetwister combo deck that used Fireball as a game finisher. In this post, we'll see if replacing the Fireball with Braingeyser can make the deck even better.
 bigimg: /img/twist_of_fire/geyser_twister_fireball.jpg
 tags: [Black Lotus, Timetwister, Limited Edition Alpha, 40 Card Alpha, Monte Carlo]
 ---
