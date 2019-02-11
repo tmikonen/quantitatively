@@ -1,17 +1,17 @@
 ---
 layout: post
 title: The BrainTwist
-subtitle: Does Braingeyser beat the Fireball?
-post_description: In the previous post we simulated the infamous Black Lotus & Timetwister combo deck that used Fireball as a game finisher. In this post, we'll see if replacing the Fireball with Braingeyser can make the deck even better.
+subtitle: Does Braingeyser beat Fireball?
+post_description: In the previous post we simulated the infamous Black Lotus & Timetwister combo deck that used Fireball as a finisher. In this post, we'll see if replacing the Fireball with Braingeyser can make the deck even better.
 bigimg: /img/twist_of_fire/geyser_twister_fireball.jpg
 tags: [Black Lotus, Timetwister, Limited Edition Alpha, 40 Card Alpha, Monte Carlo]
 ---
 
 ## Background
 
-The three decks that have often been mentioned as the most oppressing and powerful in the very early, wild days of Magic: the Gathering are the [Big Wheel, Twist of Fire, and BrainTwist](http://www.eternalcentral.com/tag/history-of-vintage/). The first is based on the [Black Lotus](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3) and [Wheel of Fortune](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=231) mana and draw engine, while the latter two replace the Wheel of Fortune with [Timetwister](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=132). In earlier posts on this blog, I have analyzed the [Wheel deck](../2019-01-15-the-lotus-and-the-wheel-part2) and the [Fireball](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=197) variant, the [Twist of Fire](../2019-0121-the-twist-of-fire). The analyses confirmed that both decks are indeed completely broken, reaching a ridiculous turn one win percentage of about 99 %, with the latter having a slightly higher win probability and also being much more robust with respect to the opponent's deck choice.
+The three decks that have often been mentioned as the most oppressing and powerful in the very early, wild days of Magic: the Gathering, are the [Big Wheel, Twist of Fire, and BrainTwist](http://www.eternalcentral.com/tag/history-of-vintage/). The first is based on the [Black Lotus](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3) and [Wheel of Fortune](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=231) mana and draw engine, while the latter two replace the Wheel of Fortune with [Timetwister](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=132). In earlier posts on this blog, I have analyzed the [Wheel deck](../2019-01-15-the-lotus-and-the-wheel-part2) and the [Fireball](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=197) variant, the [Twist of Fire](../2019-0121-the-twist-of-fire). The analyses confirmed that both decks are indeed completely broken, reaching a ridiculous turn one win percentage of about 99 %, with the latter having a slightly higher win probability and also being much more robust with respect to the opponent's deck choice.
 
-[According to Stephen Menendian](http://www.vintagemagic.com/blog/old-school-magic-chapter-11-the-untold-history-of-combo-in-old-school/), the Timetwister deck that uses Fireball as the win condition later evolved into the BrainTwist deck. Here, the Fireball is replaced by the Braingeyser, a card that allows the caster to either draw cards or force the opponent to draw cards, the number depending on the amount on mana used to cast the spell. Contrary to the gigantic Fireball, which would reduce the opponent's life total to zero, the Braingeyser is used to deplete the opponent's deck. In Magic, this also leads to the opponent's loss as, according to the [rules](https://magic.wizards.com/en/articles/archive/original-magic-rulebook-2004-12-25), a player loses if he is unable to draw a card from his deck. In addition to presenting the win condition, the Braingeyser also functions as a draw engine. This will make it less likely that the deck stalls in the middle of the loop. However, the amount of mana required to cast the final, lethal spell, is also higher: 35 vs 21.[^1] Therefore it's not immediately obvious which one is the better choice, the Fireball or the Braingeyser.
+[According to Stephen Menendian](http://www.vintagemagic.com/blog/old-school-magic-chapter-11-the-untold-history-of-combo-in-old-school/), the Timetwister deck that uses Fireball as the win condition later evolved into the BrainTwist deck. Here, the Fireball is replaced by [Braingeyser](http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=98), a card that allows the caster to either draw cards or force the opponent to draw cards, the number depending on the amount on mana used to cast the spell. Contrary to the gigantic Fireball, which would reduce the opponent's life total to zero, the Braingeyser is used to deplete the opponent's deck. In Magic, this also leads to the opponent's loss as, according to the [rules](https://magic.wizards.com/en/articles/archive/original-magic-rulebook-2004-12-25), a player loses if he is unable to draw a card from his deck. In addition to presenting the win condition, the Braingeyser also functions as a draw engine. This will make it less likely that the deck stalls in the middle of the loop. However, the amount of mana required to cast the final, lethal spell, is also higher: 35 vs 21.[^1] Therefore it's not immediately obvious which one is the better choice, the Fireball or the Braingeyser.
 
 ## The simulation model
 
@@ -31,7 +31,7 @@ But, on to the actual simulation algorithm. The basics are very similar to the [
 8. After no more Braingeysers are cast, a Timetwister is played.
 9. Steps 4. - 8. are repeated until the game is won or continuing is not possible either due to running out of mana or not drawing a new Timetwister or Braingeyser.
 
-Whew, the algorithm is starting to get complicated. In the simulations, I scanned the threshold for casting the Braingeyser in step 7 over a range of values, starting from 0 to 24. The optimal value was found to be 12, so this is what I will use in the results shown below.[^2]
+Whew, the algorithm is starting to get complicated. In the simulations, I scanned the threshold for casting the Braingeyser in step (7) over a range of values, starting from 0 to 24. The optimal value was found to be 12, so this is what I will use in the results shown below.[^2]
 
 ## Results
 
@@ -65,14 +65,6 @@ What is also striking, is that if one then replaces just one Black Lotus with a 
 
 To see what is going on, let's look at the number of cards drawn during the game. This is illustrated in the two histograms below. The first one shows the data for games that were won, while the latter shows the games that were lost. The data are shown for the decks with 15, 16, and 17 Braingeysers (and correspondingly, 25, 24, and 23 Black Lotuses).
 
-First of all, in both figures, the highest bar is at 40 cards drawn. This number means that the whole deck has been drawn before the game was won or lost. This is true for the vast majority of games, irrespective of the number of Braingeysers. However, with 15 Braingeysers, drawing the whole deck almost always translates into a win (very high bar in the first figure, a tiny one in the second). With 16, the odds of winning are almost 50-50, and with 17 Braingeysers, the odds are almost negligibly, even if the whole deck was drawn.
-
-There is actually a very simple explanation for this. First, assume that in the end the whole deck has been drawn. The minimum amount of Braingeysers that need to be cast to achieve this is 2; the first one cast with 7 Black Lotuses to draw 19 cards, then the second one drawing the rest. The amount of mana required to do this is:
-
-deck size - number of cards in starting hand + fixed mana costs = 40 - 8 + 4 = 36.
-
-In addition to this 36 mana, one needs 35 more to deck the opponent. So, a total of 36 + 35 = 71 mana. This is equal to the mana available from 24 Black Lotuses. It's no wonder then, that the win probability drops to zero when the number of Black Lotuses goes to 23. There are simply not enough Black Lotuses in the whole deck to win the game!
-
 ![](../img/braintwist/Twisterless_Braintwist_histo1.jpg)
 
 *The histogram of cards drawn on turn 1 in a game with the Twisterless BrainTwist. Sampled over winning games.*
@@ -80,6 +72,15 @@ In addition to this 36 mana, one needs 35 more to deck the opponent. So, a total
 ![](../img/braintwist/Twisterless_Braintwist_histo2.jpg)
 
 *The histogram of cards drawn on turn 1 in a game with the Twisterless BrainTwist. Sampled over losing games.*
+
+
+First of all, in both figures, the highest bar is at 40 cards drawn. This number means that the whole deck has been drawn before the game was won or lost. This is true for the vast majority of games, irrespective of the number of Braingeysers. However, with 15 Braingeysers, drawing the whole deck almost always translates into a win (very high bar in the first figure, a tiny one in the second). With 16, the odds of winning are almost 50-50, and with 17 Braingeysers, the odds are almost negligible, even if the whole deck was drawn.
+
+There is actually a very simple explanation for this. First, assume that in the end the whole deck has been drawn. The minimum amount of Braingeysers that need to be cast to achieve this is 2; the first one cast with 7 Black Lotuses to draw 19 cards, then the second one drawing the rest. The amount of mana required to do this is:
+
+deck size - number of cards in starting hand + fixed mana costs = 40 - 8 + 4 = 36.
+
+In addition to this 36 mana, one needs 35 more to deck the opponent. So, a total of 36 + 35 = 71 mana. This is equal to the mana available from 24 Black Lotuses. It's no wonder then, that the win probability drops to zero when the number of Black Lotuses goes to 23. There are simply not enough Black Lotuses in the whole deck to win the game!
 
 ### Back to BrainTwist
 
@@ -110,4 +111,4 @@ In any case, I think it's quite amusing to see that even after all the optimizat
 
 [^1]: Here I am again assuming that the opponent is playing a 40-card deck. This is in a sense a best case scenario, but also the most probable one. Contrary to the Lotus and Wheel deck, the Braintwist does not immediately lose if the opponent wields a bigger deck. But it will make winning slightly more difficult.
 
-[^2]: 12 was the value that together with optimizing the Lotus - Twister - Geyser - ratio gave the global maximum turn one win probability. For any given (suboptimal) choice of the card ratios, the locally optimal value for the threshold could be different from the globally optimal one (that is, 12).
+[^2]: 12 was the value that together with optimizing the Lotus - Twister - Geyser - ratio gave the global maximum turn one win probability. For any given (suboptimal) choice of the card ratios, the locally optimal value for the threshold could be different from the globally optimal one (that is, other then 12).
