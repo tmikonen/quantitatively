@@ -1,5 +1,5 @@
 <h3>Leave a comment</h3>
-<form action="/fake" data-action="{{ site.comments.receiver }}" method="post" id="commentform" class="form-horizontal" style="margin-left:50px;width:600px">
+<form action="/fake" method="post" id="commentform" class="form-horizontal" style="margin-left:50px;width:600px">
   <fieldset id="commentfields">
     <input name="redirect" type="hidden" value="{{ site.url }}/thanks">
     <input name="post_id" type="hidden" value="{{ slug }}">
@@ -40,12 +40,12 @@
       }
 
       var form = document.getElementById('commentform')
+      form.action = '{{site.comments.receiver}}'
       button.innerText = 'Posting...'
       button.disabled = true
+      form.submit()
       var fields = document.getElementById('commentfields')
       fields.disabled = true
-      form.action = form.dataset.action
-      form.submit()
     }
   </script>
 <div id="commentstatus" style="clear:both" class="status"></div>
