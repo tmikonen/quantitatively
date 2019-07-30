@@ -1,0 +1,51 @@
+<h3>Leave a comment</h3>
+<form action="/fake" data-action="{{ site.comments.receiver }}" method="post" id="commentform" class="form-horizontal" style="margin-left:50px;width:600px">
+  <fieldset id="commentfields">
+    <input name="redirect" type="hidden" value="{{ site.url }}/thanks">
+    <input name="post_id" type="hidden" value="{{ slug }}">
+    <input name="comment-site" type="hidden" value="{{ site.url }}">
+    <div>
+    <input type="text" name="name" id="name" placeholder="Your name (required)" style="width:100%;font-size:14px;margin-top:6px;" />
+    <br></div>
+    <div>
+    <input type="text" name="email" id="email" placeholder="Your email (required; will not be published)" style="width:100%;font-size:14px;margin-top:6px;" />
+    </div>
+    <div>
+    <input type="text" name="url" id="url" placeholder="Your website (optional)" style="width:100%;font-size:14px;margin-top:6px;" />
+    </div>
+    <div>
+    <textarea name="message" id="message" placeholder="Write a comment" style="height:140px;width:100%;font-size:14px;margin-top:6px;"></textarea>
+    </div>
+
+
+    <button onclick="setupForm()" type="button" class="btn btn-primary" id="commentbutton">Submit comment</button>
+  </fieldset>
+</form>
+<script>
+    function setupForm() {
+      var status = document.getElementById('commentstatus')
+      status.innerText = ''
+
+      var requiredIds = [ 'message', 'email', 'name']
+      var missing = requiredIds.filter(id => document.getElementById(id).value.length < 3)
+      if (missing.length > 0) {
+        status.innerText = 'Some required fields are missing - (' + missing.join(', ') + ')'
+        return
+      }
+
+      var button = document.getElementById('commentbutton')
+      if (button.innerText != 'Confirm comment') {
+        button.innerText = 'Confirm comment'
+        return
+      }
+
+      var form = document.getElementById('commentform')
+      button.innerText = 'Posting...'
+      button.disabled = true
+      var fields = document.getElementById('commentfields')
+      fields.disabled = true
+      form.action = form.dataset.action
+      form.submit()
+    }
+  </script>
+<div id="commentstatus" style="clear:both" class="status"></div>

@@ -12,6 +12,19 @@ title: Quantitatively Old School
 # Short description of your site
 description:  Applied maths and pieces of old cardboard
 
+
+# Commenting Settings
+emptyArray: []
+
+comments:
+  receiver: https://quantitativelycommentreceiver.azurewebsites.net/api/PostComment
+
+authors:
+  timo:
+    name: timo
+    email: timo.ikonen@iki.fi
+    url: http://www.quantitatively.fi
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -153,7 +166,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      commenting: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:

@@ -1,0 +1,23 @@
+<blockquote id="{{ comment.id }}">
+  <div class="comment-body">{{ comment.message | markdownify }}</div>
+  <cite>
+    <br>
+    {% if comment.url %}
+      <a href="{{ comment.url }}" rel="nofollow">{{ comment.name | xml_escape }}</a>
+    {% else %}
+      {{ comment.name | xml_escape }}
+    {% endif %}
+    &ndash;
+    <span class="muted" title="{{ comment.date | date_to_rfc822 }}">
+      {{ comment.date | date: '%B' }}
+      {% assign d = comment.date | date: "%-d" %}
+      {% case d %}
+        {% when '1' or '21' or '31' %}{{d}}st,
+        {% when '2' or '22' %}{{d}}nd,
+        {% when '3' or '23' %}{{d}}rd,
+        {% else %}{{d}}th,
+      {% endcase %}
+      {{ comment.date | date: '%Y' }}
+    </span>
+  </cite>
+</blockquote>
