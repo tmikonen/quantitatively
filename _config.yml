@@ -17,8 +17,8 @@ description:  Applied maths and pieces of old cardboard
 emptyArray: []
 
 comments:
-  receiver: https://quantitativelycommentreceiver.azurewebsites.net/api/PostComment
-
+  receiver: https://quantitativelycomments.azurewebsites.net/api/ForwardComment?code=/a2PJD4uDhDpmgVj48dytN5ktGEGVnzPKteq4ad/mpN2wnPfR1PrWg==
+  # receiver: http://localhost:7071/api/ForwardComment
 authors:
   timo:
     name: timo

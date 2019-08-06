@@ -8,7 +8,7 @@
     <input type="text" name="name" id="name" placeholder="Your name (required)" style="width:100%;font-size:14px;margin-top:6px;" />
     <br></div>
     <div>
-    <input type="text" name="email" id="email" placeholder="Your email (required; will not be published)" style="width:100%;font-size:14px;margin-top:6px;" />
+    <input type="text" name="email" id="email" placeholder="Your email (optional; will not be published)" style="width:100%;font-size:14px;margin-top:6px;" />
     </div>
     <div>
     <input type="text" name="url" id="url" placeholder="Your website (optional)" style="width:100%;font-size:14px;margin-top:6px;" />
@@ -26,7 +26,7 @@
       var status = document.getElementById('commentstatus')
       status.innerText = ''
 
-      var requiredIds = [ 'message', 'email', 'name']
+      var requiredIds = [ 'message', 'name']
       var missing = requiredIds.filter(id => document.getElementById(id).value.length < 3)
       if (missing.length > 0) {
         status.innerText = 'Some required fields are missing - (' + missing.join(', ') + ')'
