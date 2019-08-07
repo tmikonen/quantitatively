@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Lotus and the Wheel, part 2
+title: The Lotus and the Wheel part 2
 subtitle: Hypergeometric distribution beats Monte Carlo - plus, a Mind Twister!
 post_description: Revisiting the Lotus and Wheel deck with better simulation and computation tools. Shedding more light into the deck by hypergeometric calculations, and setting a baseline for future posts. Also, a technical puzzle awaiting to be solved!
 bigimg: /img/lotus_and_wheel_part2/hg_illus.jpg
@@ -67,6 +67,6 @@ You can go back to [this IPython notebook](../attachments/Lotus_And_Wheel.ipynb)
 
 [1]: https://en.wikipedia.org/wiki/Recursion_(computer_science)
 
-### Footnotes 
+### Footnotes
 
 [^1]: At least in the opening hand. Any excess Black Lotuses are played and kept on the battlefield to be available on subsequently drawn hands.

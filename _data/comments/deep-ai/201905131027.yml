@@ -1,0 +1,6 @@
+id: 201905131027
+name: Timo
+email:
+url: https://www.quantitatively.fi
+date: 2019-05-13 10:27:48
+message: "Hi! Thanks for the nice comment. :) You pose an interesting question. Basically, the more goblins you have, the more reliably you can cast the grenade (obviously). As you add more goblins, the marginal benefit of adding more diminishes. At some point this advantage will be outweighed by the disadvantage of not including something more powerful in the deck. So it's in fact a more broad question of optimizing the whole deck. For example, one could try to minimize the number of turns required to reach a damage output of 20 points, or maximize the damage output in the first five turns. But a simpler and more feasible approach would be to just set a threshold for the probability of being able to cast the grenade and choose the number of goblins accordingly. The downside of this approach is that what probability is 'good enough' is largely a matter of opinion and, the opportunity cost of not including more powerful cards is not taken into account. But, this seems like an interesting topic of discussion that I might try tackle from some angle. In the meantime, do you have a list of your goblin deck or something similar for my reference?"

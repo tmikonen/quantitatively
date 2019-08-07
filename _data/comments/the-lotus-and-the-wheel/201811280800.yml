@@ -1,0 +1,6 @@
+id: 201811280800
+name: Timo
+email:
+url: https://www.quantitatively.fi
+date: 2018-11-28 08:00:57
+message: "Good question! I didn't include any mulligans because in the very early days there were none. But the effect of including one free (non-land) mulligan to seven cards would be basically to give a free start. Assuming that the card distribution was 50 % - 50 %, the chance of drawing either all Wheels or all Lotuses in the starting hand is 2 * (1/2)^7 = (1/2)^6 ~ 1.6 %. Then there's the card drawn at the beginning of turn one that mitigates the chance of stalling at this point by half. So having the chance to mulligan once for free would further increase the turn one win percentage by roughly 0.8 %. In fact, without the mulligan, a simple back of the envelope estimate for the overall turn 1 win probability would be 1 - ( (1/2) * 2 * (1/2)^7 + 5 * (1/2)^7 ) ) ~ 0.95 = 95 %. Which is actually pretty close. This is assuming equal card distribution, and always having at least one Lotus remain on the table after the previous Wheel."

@@ -1,0 +1,6 @@
+id: 201812080743
+name: Timo
+email:
+url: https://www.quantitatively.fi
+date: 2018-12-08 07:43:34
+message: "Thanks, good suggestions. I'll probably come back to the topic later. There are several options I want to explore to see how they mitigate the chance of getting mana screwed. Power cards would be straightforward to take in the account in the simulation for the most part. The one thing that would be missing is the estimation of their additional value (apart from preventing mana screw) in winning the game. I would need a rules engine to play out the whole game, complete with a competitive AI to drive the in-game decisions. I've been looking into options regarding this, but so far I have not found one that I could implement with reasonable effort."
