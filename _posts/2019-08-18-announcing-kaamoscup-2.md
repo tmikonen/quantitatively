@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing KaamosCup 2
+title: Announcing KaamosCup II
 subtitle: Old School Magic Tournament at Helsinki
 #post_description: --
 bigimg: /img/announcing_kaamoscup_2/wintersun.jpg
@@ -8,7 +8,7 @@ tags: [KaamosCup, Tournament, Finnish Old School]
 #usemathjax: true
 ---
 
-# KaamosCup 2
+# KaamosCup II
 
 ## In brief
 
