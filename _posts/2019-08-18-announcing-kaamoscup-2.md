@@ -32,7 +32,7 @@ Registration by email or via Facebook (links are found at the bottom of this pag
 
 ## Main Event
 
-The main event is a 93/94 old school tournament, following the [Swedish deck construction rules](http://oldschool-mtg.blogspot.com/p/banrestriction.html), with a more relaxed reprint and proxy policy.
+The main event is a 93/94 old school tournament, following the [Swedish banned and restricted list](http://oldschool-mtg.blogspot.com/p/banrestriction.html), with the gentlemen's addendum (Library of Alexandria and Mind Twist are **banned**). We also allow reprints and proxies as detailed below.
 
 ### Legal sets
 
@@ -77,7 +77,7 @@ The following cards are **restricted**:
 
 ### Reprint and proxy policy
 
-All non-foil reprints with original art are considered legal. This includes cards from the Collectors' Edition, International Collectors' Edition, and the Pro Tour 1996 decks. The alternate art version of Plateau and Serendib Efreet from the Revised edition are also considered legal.
+All non-foil reprints with original art are considered legal. This includes cards from the Collectors' Edition, International Collectors' Edition, the Pro Tour 1996 decks, and non-english reprints such as the Italian Legends. The alternate art version of Plateau and Serendib Efreet from the Revised edition are also considered legal.
 
 In addition, a maximum of **ten proxy cards** are allowed in the deck (including both the main deck and the sideboard). The proxy cards should adhere to the same visual guidelines as the rest of the deck (original art) and, upon examination, *they need to be easily distinguishable as proxy cards.* For example, an image of the proxied card printed on paper in color within the same sleeve as an actual Magic card is OK.
 
