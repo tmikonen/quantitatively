@@ -4,7 +4,7 @@ title: Announcing KaamosCup II
 subtitle: Old School Magic Tournament at Helsinki
 #post_description: --
 bigimg: /img/announcing_kaamoscup_2/wintersun.jpg
-tags: [KaamosCup, Tournament, Finnish Old School]
+tags: [KaamosCup, Tournament, Finnish Old School, 93/94, 93/94 Highlander, Alpha]
 #usemathjax: true
 ---
 
