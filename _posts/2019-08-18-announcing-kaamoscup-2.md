@@ -26,7 +26,7 @@ An old school 93/94 playable card (worth 5 euros at most). The card will be sign
 
 ### Registration
 
-Registration by email or via Facebook (links are found at the bottom of this page). We will appreciate registering before October 20th so that we can reserve a suitable location for the tournament.
+Registration by email or via Facebook (links are found at the bottom of this page). We will appreciate registering before October 18th so that we can reserve a suitable location for the tournament. After the deadline we can only accept registrations if we have vacancies.
 
 ---
 
