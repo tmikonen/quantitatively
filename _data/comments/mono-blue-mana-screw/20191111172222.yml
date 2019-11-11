@@ -1,0 +1,6 @@
+id: 20191111172222
+name: Timo
+email:
+url:
+date: 2019-11-11 17:22:22
+message: "I never ran the calculation to optimize the number of islands. Basically, the result depends on what you optimize for. Avoiding getting mana screwed always has the alternative cost of getting mana flooded, and to determine the optimization goal is a bit ambiquous. But in the deck I discussed in this post, the biggest problem were the main deck Boomerangs. I would much rather just replace them with the Merfolk of the Pearl Trident, for example."
