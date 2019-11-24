@@ -1,0 +1,6 @@
+id: 20191113183530
+name: Michael
+email:
+url:
+date: 2019-11-13 18:35:30
+message: "These articles are really cool, and I'm tempted to try to write some simulations of my own for different decks. I think the error in your original code was that create_deck actually doesn't always make a deck with the right number of loti, because each card is chosen independently with a fixed probability. Because of that, when the best deck was simulated, it would often be playing with a slightly inferior deck and end up with a lower win rate."
