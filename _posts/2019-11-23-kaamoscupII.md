@@ -129,7 +129,7 @@ The final standings of the tournament are below:
 ---
 
 
-![](../img/kaamoscupII/Antti.jpeg)
+![](../img/kaamoscupII/antti.jpeg)
 
 *Antti: Netherworld Dreams.*
 
