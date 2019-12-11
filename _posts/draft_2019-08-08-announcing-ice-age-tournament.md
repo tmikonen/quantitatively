@@ -16,8 +16,6 @@ tags: [Tournament, Finnish Old School]
 
 ## Venue and time
 
-Following the successful [KaamosCup 2018](../2018-12-17-kaamoscup), the Helsinki Old School crew are organizing a tournament on November 2, 2019. The venue will be announced at a later date, but will be a suitable pub in downtown Helsinki. Starting time will be at 2 pm.
-
 ## Format
 
 ### Legal sets
