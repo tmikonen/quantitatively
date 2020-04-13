@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stasis Enchantress
-subtitle: A mini tournament report
+subtitle: A mini tournament report involving a lot of Wombat combat
 post_description:
 bigimg: /img/enchantress/enchantress_banner.jpg
 tags: [93/94, Tournament, Enchantress, Stasis]
