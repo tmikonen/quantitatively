@@ -1,0 +1,6 @@
+id: 202011130235
+name: Karl
+email:
+url:
+date: 2020-11-13 02:35:00
+message: "I liked reading these, and tried comparing to decks with only ancestrals and lotuses. The Lotus and Wheel 98.818% turn 1 probability assumes you are on the draw, correct? That's what I found when I tried calculating it, unless in the beginning they didn't have the rule that the first player doesn't draw a card turn 1. Are the Twist of Fire and Brain Twist turn one probabilities also for on the draw? I ask because I've found some of the lotus ancestral decks are slightly more likely to win turn 1 on the draw against a 40 card deck, if I didn't make a calculation error. The highest of those I've found is 19 lotuses, 22 ancestrals, with 99.51% on the draw, but the highest play-draw average, with 20 lotuses and 24 ancestrals, is a bit lower at 99.078%. These have the same problem as lotus and wheel, in that they are sensitive to opponent's library size, so the other options might still be better. "
