@@ -33,6 +33,7 @@ navbar-links:
   Blog: "index"
   About Me: "aboutme"
   Community:
+    - Old School MtG Finland: "http://oldschoolmtg.fi"
     - Old School MtG: "http://oldschool-mtg.blogspot.com/"
     - Wak-Wak: "http://www.wak-wak.se/"
     - Eternal Central: "http://www.eternalcentral.com/oldschool/"
