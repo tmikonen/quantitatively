@@ -1,0 +1,6 @@
+id: 202104061540
+name: Karl
+email:
+url:
+date: 2021-04-06 15:40:00
+message: "I tried using the detector but it made a couple errors for me, so i had to change a few things. thanks for making this! 1: cv2.findContours returns 2, not 3 values, so i had to delete some of the _'s. maybe i'm using a later version of cv2? 2: in savehash.py, mcg.MagicCardDetector() yields an error since there's no output path being given."
