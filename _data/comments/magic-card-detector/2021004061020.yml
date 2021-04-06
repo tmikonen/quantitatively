@@ -1,0 +1,6 @@
+id: 2021004061020
+name: Timo
+email:
+url:
+date: 2021-04-06 10:20:00
+message: "Thanks for the comment Chris. I have not tried the crop-resistant p-hash - if you have a link to a good resource I would be interested in learning more about it. As for the pre-hashed database I used, that is indeed only the alpha set of cards, not the whole universe of printed MTG cards. I have a hunch that with such a large data set, the algorithm would benefit from some kind of pre-selection. For example, dividing the hashed cards by color and searching for a match in the most probable set first could speed up the identification."
